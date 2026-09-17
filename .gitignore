@@ -21,3 +21,9 @@ README.html
 *.tgz
 docs/
 .vscode/
+
+# TypeScript
+dist/
+
+# Agent stuff
+.claude/

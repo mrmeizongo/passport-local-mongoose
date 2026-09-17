@@ -2,6 +2,96 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.1.0](https://github.com/saintedlama/passport-local-mongoose/compare/v9.0.3...v9.1.0) (2026-05-03)
+
+
+### Features
+
+* add generateHash option to provide custom hash algorithm ([#395](https://github.com/saintedlama/passport-local-mongoose/issues/395)) ([7f14239](https://github.com/saintedlama/passport-local-mongoose/commit/7f14239abfb9e693ab03c33ec052c353f002093e))
+
+
+### Bug Fixes
+
+* remove scmp in favor of timingSafeEqual ([1f23d20](https://github.com/saintedlama/passport-local-mongoose/commit/1f23d20da19b4cc203cc1f37a4917c775c2bd041))
+
+## [9.0.3](https://github.com/saintedlama/passport-local-mongoose/compare/v9.0.2...v9.0.3) (2026-05-01)
+
+
+### Bug Fixes
+
+* add provenance information to npm ([eb60253](https://github.com/saintedlama/passport-local-mongoose/commit/eb60253dff448555bd8445753b81a44d7c943442))
+
+## [9.0.2](https://github.com/saintedlama/passport-local-mongoose/compare/v9.0.1...v9.0.2) (2026-05-01)
+
+
+### Bug Fixes
+
+* update dependencies to fix security vulnerabilities ([#391](https://github.com/saintedlama/passport-local-mongoose/issues/391)) ([2fe080b](https://github.com/saintedlama/passport-local-mongoose/commit/2fe080b1b76bfe19a4e3af036c6abe8d721924dd))
+
+## [9.0.1](https://github.com/saintedlama/passport-local-mongoose/compare/v9.0.0...v9.0.1) (2025-12-12)
+
+### Bug Fixes
+
+* fix: add back callback to schema.statics.authenticate to fix issue #388
+
+### Features
+
+* chore: add back examples
+* chore: fix eslint config by disabling js no-unused-vars in favor of typescript equivalent
+* chore: add instructions for ESM module usage
+
+## [9.0.0](https://github.com/saintedlama/passport-local-mongoose/compare/v8.0.0...v9.0.0) (2025-11-27)
+
+### ⚠ BREAKING CHANGES
+
+* Upgraded to mongoose 9 and removed node for node versions < 20 support
+
+### Features
+
+* chore: upgrade dependencies and test setup
+* chore: remove examples causing too much maintenance effort
+* chore: modernize eslint, integrate prettier again, apply prettier fixes
+* chore: remove call to next for mongoose 9 compatibility
+* chore: remove mongo 4.x from build matrix and add back node 18
+* chore: switch to manual release process due to standard-version deprecation
+* chore: deprecate callback support, remove tests, use modern js for error creation
+* refactor remaining promise structures to async/await
+* chore: migrate to vitest
+* chore: remove typing artifacts
+* chore: rewrite in typescript
+* chore: remove index and cleanup README.md
+* chore: remove tsd from package.json
+* fix type problems
+* chore: remove node 18 from build matrix
+* chore: update minor dependencies
+
+## [8.0.0](https://github.com/saintedlama/passport-local-mongoose/compare/v7.1.2...v8.0.0) (2023-03-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgraded to mongoose 7 and removed node 12 support
+
+### Features
+
+* upgrade to mongoose 7 ([#370](https://github.com/saintedlama/passport-local-mongoose/issues/370)) ([a397c00](https://github.com/saintedlama/passport-local-mongoose/commit/a397c00330494563c8141bb6e1334b83d6aa16c7))
+
+### [7.1.2](https://github.com/saintedlama/passport-local-mongoose/compare/v7.1.1...v7.1.2) (2022-05-21)
+
+### [7.1.1](https://github.com/saintedlama/passport-local-mongoose/compare/v7.1.0...v7.1.1) (2022-05-17)
+
+
+### Bug Fixes
+
+* add usernameCaseInsensitive to the typings ([#355](https://github.com/saintedlama/passport-local-mongoose/issues/355)) ([26f4991](https://github.com/saintedlama/passport-local-mongoose/commit/26f49919220db8f489cfe7fd7f6534535ff0c544))
+
+## [7.1.0](https://github.com/saintedlama/passport-local-mongoose/compare/v7.0.0...v7.1.0) (2022-05-17)
+
+
+### Features
+
+* add basic type definitions ([#354](https://github.com/saintedlama/passport-local-mongoose/issues/354)) ([92849db](https://github.com/saintedlama/passport-local-mongoose/commit/92849db3329efd1f10af52a16f8b020e657e1b98)), closes [#335](https://github.com/saintedlama/passport-local-mongoose/issues/335)
+
 ## [7.0.0](https://github.com/saintedlama/passport-local-mongoose/compare/v6.2.2...v7.0.0) (2022-03-13)
 
 
